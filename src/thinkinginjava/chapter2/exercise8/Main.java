@@ -1,7 +1,7 @@
 package thinkinginjava.chapter2.exercise8;
 
 /*
- * Chapter 2. Exercise 8. Difficult - 1/10.
+ * Chapter 2. Exercise 8. Difficult - 3/10.
  *
  * Write a program that demonstrates that, no matter how many objects
  * you create of a particular class, there is only one instance
