@@ -1,7 +1,7 @@
-package thinkinginjava.chapter2.exercise7;
+package thinkinginjava.chapter2.exercise8;
 
 /*
- * Chapter 2. Exercise 7. Difficult - 1/10.
+ * Chapter 2. Exercise 8. Difficult - 1/10.
  *
  * Turn the Incrementable code fragments into a working program.
  */
