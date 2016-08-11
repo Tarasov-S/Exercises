@@ -8,6 +8,7 @@ package thinkinginjava.chapter2.exercise3;
  */
 
 public class Main {
+
     public static void main(String[] args) {
         ATypeName aTypeName = new ATypeName();
         aTypeName.WhoAreYou();      // out: I am a new type.
