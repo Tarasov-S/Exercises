@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise9;
+package thinkinginjava.chapter2.exercise09;
 
 class AutoBoxing {
 

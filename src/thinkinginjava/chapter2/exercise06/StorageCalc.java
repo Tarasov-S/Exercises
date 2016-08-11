@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise6;
+package thinkinginjava.chapter2.exercise06;
 
 class StorageCalc {
 

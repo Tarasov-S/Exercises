@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise7;
+package thinkinginjava.chapter2.exercise08;
 
 class StaticTest {
 

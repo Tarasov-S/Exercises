@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise5;
+package thinkinginjava.chapter2.exercise05;
 
 class DataOnly {
 

@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise8;
+package thinkinginjava.chapter2.exercise08;
 
 /*
  * Chapter 2. Exercise 8. Difficult - 3/10.

@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise3;
+package thinkinginjava.chapter2.exercise03;
 
 class ATypeName {
 

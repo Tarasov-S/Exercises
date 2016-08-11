@@ -1,4 +1,4 @@
-package thinkinginjava.chapter2.exercise1;
+package thinkinginjava.chapter2.exercise01;
 
 class DefaultInitFields {
 
