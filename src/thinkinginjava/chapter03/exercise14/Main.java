@@ -13,27 +13,36 @@ public class Main {
     public static void main(String[] args) {
         String s1, s2;
 
-        compareString("ABC", "CBA");    // Out: Compare: s1="ABC" and s2="CBA"
+        compareString("ABC", "CBA");
+        // Out: Compare: s1="ABC" and s2="CBA"
         // Out: s1.equals(s2) = false
         // Out: s1 == s2 = false
 
 
-        compareString("ABC", "ABC");    // Out: Compare: s1="ABC" and s2="ABC"
+        compareString("ABC", "ABC");
+        // Out: Compare: s1="ABC" and s2="ABC"
         // Out: s1.equals(s2) = true
         // Out: s1 == s2 = true
+
+
         s1 = "ABC";
         s2 = "ABC";
-        compareString(s1, s2);          // Out: Compare: s1="ABC" and s2="ABC"
+        compareString(s1, s2);
+        // Out: Compare: s1="ABC" and s2="ABC"
         // Out: s1.equals(s2) = true
         // Out: s1 == s2 = true
 
 
-        compareString(s1, "A" + "B" + "C"); // Out: Compare: s1="ABC" and s2="ABC"
+        compareString(s1, "A" + "B" + "C");
+        // Out: Compare: s1="ABC" and s2="ABC"
         // Out: s1.equals(s2) = true
         // Out: s1 == s2 = true
+
+
         s1 = new String("ABC");
         s2 = new String("ABC");
-        compareString(s1, s2);          // Out: Compare: s1="ABC" and s2="ABC"
+        compareString(s1, s2);
+        // Out: Compare: s1="ABC" and s2="ABC"
         // Out: s1.equals(s2) = true
         // Out: s1 == s2 = false   (!!!)
 
