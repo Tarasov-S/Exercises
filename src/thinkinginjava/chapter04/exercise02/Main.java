@@ -36,3 +36,17 @@ public class Main {
         System.out.println(a + relation + b);
     }
 }
+
+/*
+ * Out:
+ *
+ * 1 = 1
+ * 9 > 6
+ * 5 > 3
+ * 8 > 4
+ * .....
+ * .....
+ * 9 > 1
+ * 4 < 9
+ * 4 > 0
+ */
