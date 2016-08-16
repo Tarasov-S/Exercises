@@ -123,5 +123,149 @@ Thinking in Java: Exercises List
 
 
     ##########################################
-    #### Chapter 3: Controlling Execution ####
+    #### Chapter 4: Controlling Execution ####
     ##########################################
+
+        Exercise 1:   (1)
+            Write a program that prints values from 1 to 100.
+
+        Exercise 2:   (2)
+            Write a program that generates 25 random int values. For each value, use an if-else statement to classify
+            it as greater than, less than, or equal to a second randomly generated value.
+
+        Exercise 3:   (1)
+            Modify Exercise 2 so that your code is surrounded by an “infinite” while loop. It will then run until
+            you interrupt it from the keyboard (typically by pressing Control-C).
+
+        Exercise 4:   (3)
+            Write a program that uses two nested for loops and the modulus operator (%) to detect and print prime numbers
+            (integral numbers that are not evenly divisible by any other numbers except for themselves and 1).
+
+        Exercise 5:   (4)
+            Repeat Exercise 10 from the previous chapter, using the ternary operator and a bitwise test to display
+            the ones and zeroes, instead of Integer.toBinaryString( ).
+
+        Exercise 6:   (2)
+            Modify the two test( ) methods in the previous two programs so that they take two extra arguments, begin
+            and end, and so that testval is tested to see if it is within the range between (and including) begin and end.
+
+        Exercise 7:   (1)
+            Modify Exercise 1 so that the program exits by using the break keyword at value 99. Try using return instead.
+
+        Exercise 8:   (2)
+            Create a switch statement that prints a message for each case, and put the switch inside a for loop that
+            tries each case. Put a break after each case and test it, then remove the breaks and see what happens.
+
+        Exercise 9:   (4)
+            A Fibonacci sequence is the sequence of numbers 1, 1, 2, 3, 5, 8, 13, 21, 34, and so on, where each number
+            (from the third on) is the sum of the previous two. Create a method that takes an integer as an argument
+            and displays that many Fibonacci numbers starting from the beginning, e.g., If you run java Fibonacci 5
+            (where Fibonacci is the name of the class) the output will be: 1, 1, 2, 3, 5.
+
+        Exercise 10:   (5)
+            A vampire number has an even number of digits and is formed by multiplying a pair of numbers containing
+            half the number of digits of the result. The digits are taken from the original number in any order.
+            Pairs of trailing zeroes are not allowed.
+                Examples include:
+                1260 = 21 * 60
+                1827 = 21 * 87
+                2187 = 27 * 81
+            Write a program that finds all the 4-digit vampire numbers. (Suggested by Dan Forhan.)
+
+
+    ########################################################
+    #### Chapter 5: Chapter 5: Initialization & Cleanup ####
+    ########################################################
+
+        Exercise 1:   (1)
+            Create a class containing an uninitialized String reference. Demonstrate that this reference
+            is initialized by Java to null.
+
+        Exercise 2:   (2)
+            Create a class with a String field that is initialized at the point of definition, and another one that
+            is initialized by the constructor. What is the difference between the two approaches?
+
+        Exercise 3:   (1)
+            Create a class with a default constructor (one that takes no arguments) that prints a message.
+            Create an object of this class.
+
+        Exercise 4:   (1)
+            Add an overloaded constructor to the previous exercise that takes a String argument and prints
+            it along with your message.
+
+        Exercise 5:   (2)
+            Create a class called Dog with an overloaded bark( ) method. This method should be overloaded based on various
+            primitive data types, and print different types of barking, howling, etc., depending on which overloaded
+            version is called. Write a main( ) that calls all the different versions.
+
+        Exercise 6:   (1)
+            Modify the previous exercise so that two of the overloaded methods have two arguments (of two different types),
+            but in reversed order relative to each other. Verify that this works.
+
+        Exercise 7:   (1)
+            Create a class without a constructor, and then create an object of that class in main( ) to verify that
+            the default constructor is automatically synthesized.
+
+        Exercise 8:   (1)
+            Create a class with two methods. Within the first method, call the second method twice:
+            the first time without using this, and the second time using this—just to see it working;
+            you should not use this form in practice.
+
+        Exercise 9:   (1)
+            Create a class with two (overloaded) constructors. Using this,
+            call the second constructor inside the first one.
+
+        Exercise 10:   (2)
+            Create a class with a finalize( ) method that prints a message. In main( ), create an object of your class.
+            Explain the behavior of your program.
+
+        Exercise 11:   (4)
+            Modify the previous exercise so that your finalize( ) will always be called.
+
+        Exercise 12:   (4)
+            Create a class called Tank that can be filled and emptied, and has a termination condition that
+            it must be empty when the object is cleaned up. Write a finalize( ) that verifies this termination condition.
+            In main( ), test the possible scenarios that can occur when your Tank is used.
+
+        Exercise 13:   (1)
+            Verify the statements in the previous paragraph.
+
+        Exercise 14:   (1)
+            Create a class with a static String field that is initialized at the point of definition, and another
+            one that is initialized by the static block. Add a static method that prints both fields and demonstrates
+            that they are both initialized before they are used.
+
+        Exercise 15:   (1)
+            Create a class with a String that is initialized using instance initialization.
+
+        Exercise 16:   (1)
+            Create an array of String objects and assign a String to each element. Print the array by using a for loop.
+
+        Exercise 17:   (2)
+            Create a class with a constructor that takes a String argument. During construction, print the argument.
+            Create an array of object references to this class, but don’t actually create objects to assign into the array.
+            When you run the program, notice whether the initialization messages from the constructor calls are printed.
+
+        Exercise 18:   (1)
+            Complete the previous exercise by creating objects to attach to the array of references.
+
+        Exercise 19:   (2)
+            Write a method that takes a vararg String array. Verify that you can pass either a comma-separated
+            list of Strings or a String[] into this method.
+
+        Exercise 20:   (1)
+            Create a main( ) that uses varargs instead of the ordinary main( ) syntax. Print all the elements in
+            the resulting args array. Test it with various numbers of command-line arguments.
+
+        Exercise 21:   (1)
+            Create an enum of the least-valuable six types of paper currency. Loop through the values( )
+            and print each value and its ordinal( ).
+
+        Exercise 22:   (2)
+            Write a switch statement for the enum in the previous example. For each case,
+            output a description of that particular currency.
+
+
+    ###################################
+    #### Chapter 6: Access Control ####
+    ###################################
