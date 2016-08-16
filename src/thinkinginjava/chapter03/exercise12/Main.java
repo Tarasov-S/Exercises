@@ -3,7 +3,8 @@ package thinkinginjava.chapter03.exercise12;
 /*
  * Chapter 3. Exercise 12. Difficult - 3/10.
  *
- * Write a program that calculates velocity using a constant distance and a constant time.
+ * Start with a number that is all binary ones. Left shift it, then use the unsigned right-shift operator to
+ * right shift through all of its binary positions, each time displaying the result using Integer.toBinaryString( ).
  */
 
 public class Main {

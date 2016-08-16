@@ -116,13 +116,6 @@ Thinking in Java: Exercises List
         Exercise 13:   (1)
             Write a method that displays char values in binary form. Demonstrate it using several different characters.
 
-        Exercise 12:   (3)
-            Start with a number that is all binary ones. Left shift it, then use the unsigned right-shift operator to
-            right shift through all of its binary positions, each time displaying the result using Integer.toBinaryString( ).
-
-        Exercise 13:   (1)
-            Write a method that displays char values in binary form. Demonstrate it using several different characters.
-
         Exercise 14:   (3)
             Write a method that takes two String arguments and uses all the boolean comparisons to compare the two
             Strings and print the results. For the == and !=, also perform the equals( ) test. In main( ), call your
