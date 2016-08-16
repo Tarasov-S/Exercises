@@ -1,10 +1,10 @@
-package thinkinginjava.chapter04.exercise02;
+package thinkinginjava.chapter04.exercise03;
 
 /*
- * Chapter 4. Exercise 2. Difficult - 2/10.
+ * Chapter 4. Exercise 3. Difficult - 1/10.
  *
- * Write a program that generates 25 random int values. For each value, use an if-else statement to classify
- * it as greater than, less than, or equal to a second randomly generated value.
+ * Modify Exercise 2 so that your code is surrounded by an “infinite” while loop. It will then run until
+ * you interrupt it from the keyboard (typically by pressing Control-C).
  */
 
 import java.util.Random;
@@ -16,7 +16,7 @@ public class Main {
         int a;
         int b;
 
-        for (int i = 0; i < 25; i++) {
+        for (; ; ) {
             a = random.nextInt(10);
             b = random.nextInt(10);
             compare(a, b);
