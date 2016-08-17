@@ -26,7 +26,7 @@ public class Main {
         char[] ab;
 
         for (int a = 10; a <= 99; a++) {
-            for (int b = 10; b < 99; b++) {
+            for (int b = a; b < 99; b++) {
                 axb = intToCharArray(a * b);
                 ab = intToCharArray(a, b);
                 Arrays.sort(axb);
@@ -69,12 +69,5 @@ public class Main {
  * 27 * 81 = 2187
  * 30 * 51 = 1530
  * 35 * 41 = 1435
- * 41 * 35 = 1435
- * 51 * 30 = 1530
- * 60 * 21 = 1260
  * 80 * 86 = 6880
- * 81 * 27 = 2187
- * 86 * 80 = 6880
- * 87 * 21 = 1827
- * 93 * 15 = 1395
  */
