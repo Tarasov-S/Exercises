@@ -8,7 +8,7 @@ package thinkinginjava.chapter05.exercise10_11;
  */
 
 /*
- * Chapter 5. Exercise 10. Difficult - 4/10.
+ * Chapter 5. Exercise 11. Difficult - 4/10.
  *
  * Modify the previous exercise so that your finalize( ) will always be called.
  */
