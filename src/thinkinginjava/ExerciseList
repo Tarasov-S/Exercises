@@ -269,3 +269,228 @@ Thinking in Java: Exercises List
     ###################################
     #### Chapter 6: Access Control ####
     ###################################
+
+        Exercise 1:   (1)
+            Create a class in a package. Create an instance of your class outside of that package.
+
+
+        Exercise 2:   (1)
+            Take the code fragments in this section and turn them into a program,
+            and verify that collisions do in fact occur.
+
+
+        Exercise 3:   (2)
+            Create two packages: debug and debugoff, containing an identical class with a debug( ) method.
+            The first version displays its String argument to the console, the second does nothing.
+            Use a static import line to import the class into a test program,
+            and demonstrate the conditional compilation effect.
+
+
+        Exercise 4:   (2)
+            Show that protected methods have package access but are not public.
+
+
+        Exercise 5:   (2)
+            Create a class with public, private, protected, and package-access fields and method members.
+            Create an object of this class and see what kind of compiler messages you get
+            when you try to access all the class members.
+            Be aware that classes in the same directory are part of the “default” package.
+
+
+        Exercise 6:   (1)
+            Create a class with protected data. Create a second class in the same file
+            with a method that manipulates the protected data in the first class.
+
+
+        Exercise 7:   (1)
+            Create the library according to the code fragments describing access and Widget.
+            Create a Widget in a class that is not part of the access package.
+
+
+        Exercise 8:   (4)
+            Following the form of the example Lunch.java, create a class called ConnectionManager
+            that manages a fixed array of Connection objects.
+            The client programmer must not be able to explicitly create Connection objects,
+            but can only get them via a static method in ConnectionManager.
+            When the ConnectionManager runs out of objects, it returns a null reference. Test the classes in main( ).
+
+        Exercise 9:   (2)
+            Create the following file in the access/local directory (presumably in your CLASSPATH):
+
+
+            ####################################
+            #### Chapter 7: Reusing Classes ####
+            ####################################
+
+        Exercise 1:   (2)
+            Create a simple class. Inside a second class, define a reference to an object of the first class.
+            Use lazy initialization to instantiate this object.
+
+        Exercise 2:   (2)
+            Inherit a new class from class Detergent. Override scrub( ) and add a new method called sterilize( ).
+
+        Exercise 3:   (2)
+            Prove the previous sentence.
+
+        Exercise 4:   (2)
+            Prove that the base-class constructors are (a) always called and (b) called before derived-class constructors.
+
+        Exercise 5:   (1)
+            Create two classes, A and B, with default constructors (empty argument lists) that announce themselves.
+            Inherit a new class called C from A, and create a member of class B inside C.
+            Do not create a constructor for C. Create an object of class C and observe the results.
+
+        Exercise 6:   (1)
+            Using Chess.java, prove the statements in the previous paragraph.
+
+        Exercise 7:   (1)
+            Modify Exercise 5 so that A and B have constructors with arguments instead of default constructors.
+            Write a constructor for C and perform all initialization within C’s constructor.
+
+        Exercise 8:   (1)
+            Create a base class with only a non-default constructor,
+            and a derived class with both a default (no-arg) and non-default constructor.
+            In the derived-class constructors, call the base-class constructor.
+
+        Exercise 9:   (2)
+            Create a class called Root that contains an instance of each of the classes (that you also create)
+            named Component1, Component2, and Component3. Derive a class Stem from Root that also contains
+            an instance of each “component.”
+            All classes should have default constructors that print a message about that class.
+
+        Exercise 10:   (1)
+            Modify the previous exercise so that each class only has non-default constructors.
+
+        Exercise 11:   (3)
+            Modify Detergent.java so that it uses delegation.
+
+        Exercise 12:   (3)
+            Add a proper hierarchy of dispose( ) methods to all the classes in Exercise 9.
+
+        Exercise 13:   (2)
+            Create a class with a method that is overloaded three times. Inherit a new class,
+            add a new overloading of the method, and show that all four methods are available in the derived class.
+
+        Exercise 14:   (1)
+            In Car.java add a service( ) method to Engine and call this method in main( ).
+
+        Exercise 15:   (2)
+            Create a class inside a package. Your class should contain a protected method.
+            Outside of the package, try to call the protected method and explain the results.
+            Now inherit from your class and call the protected method from inside a method of your derived class.
+
+        Exercise 16:   (2)
+            Create a class called Amphibian. From this, inherit a class called Frog.
+            Put appropriate methods in the base class. In main( ),
+            create a Frog and upcast it to Amphibian and demonstrate that all the methods still work.
+
+        Exercise 17:   (1)
+            Modify Exercise 16 so that Frog overrides the method definitions from the base class
+            (provides new definitions using the same method signatures). Note what happens in main( ).
+
+        Exercise 18:   (2)
+            Create a class with a static final field and a final field and demonstrate the difference between the two.
+
+        Exercise 19:   (2)
+            Create a class with a blank final reference to an object.
+            Perform the initialization of the blank final inside all constructors.
+            Demonstrate the guarantee that the final must be initialized before use,
+            and that it cannot be changed once initialized.
+
+        Exercise 20:   (1)
+            Show that @Override annotation solves the problem in this section.
+
+        Exercise 21:   (1)
+            Create a class with a final method. Inherit from that class and attempt to overwrite that method.
+
+        Exercise 22:   (1)
+            Create a final class and attempt to inherit from it.
+
+        Exercise 23:   (2)
+            Prove that class loading takes place only once. Prove that loading may be caused by either
+            the creation of the first instance of that class or by the access of a static member.
+
+        Exercise 24:   (2)
+            In Beetle.java, inherit a specific type of beetle from class Beetle,
+            following the same format as the existing classes. Trace and explain the output.
+
+
+            #################################
+            #### Chapter 8: Polymorphism ####
+            #################################
+
+        Exercise 1:   (2)
+            Create a Cycle class, with subclasses Unicycle, Bicycle and Tricycle.
+            Demonstrate that an instance of each type can be upcast to Cycle via a ride( ) method.
+
+        Exercise 2:   (1)
+            Add the @Override annotation to the shapes example.
+
+        Exercise 3:   (1)
+            Add a new method in the base class of Shapes.java that prints a message,
+            but don’t override it in the derived classes. Explain what happens.
+            Now override it in one of the derived classes but not the others, and see what happens.
+            Finally, override it in all the derived classes.
+
+        Exercise 4:   (2)
+            Add a new type of Shape to Shapes.java and verify in main( )
+            that polymorphism works for your new type as it does in the old types.
+
+        Exercise 5:   (1)
+            Starting from Exercise 1, add a wheels( ) method in Cycle, which returns the number of wheels.
+            Modify ride( ) to call wheels( ) and verify that polymorphism works.
+
+        Exercise 6:   (1)
+            Change Music3.java so that what( ) becomes the root Object method toString( ).
+            Try printing the Instrument objects using System.out.println( ) (without any casting).
+
+        Exercise 7:   (2)
+            Add a new type of Instrument to Music3.java and verify that polymorphism works for your new type.
+
+        Exercise 8:   (2)
+            Modify Music3.java so that it randomly creates Instrument objects the way Shapes.java does.
+
+        Exercise 9:   (3)
+            Create an inheritance hierarchy of Rodent: Mouse, Gerbil, Hamster,etc. In the base class,
+            provide methods that are common to all Rodents, and override these in the derived classes to perform
+            different behaviors depending on the specific type of Rodent. Create an array of Rodent,
+            fill it with different specific types of Rodents, and call your base-class methods to see what happens.
+
+        Exercise 10:   (3)
+            Create a base class with two methods. In the first method, call the second method.
+            Inherit a class and override the second method. Create an object of the derived class,
+            upcast it to the base type, and call the first method. Explain what happens.
+
+        Exercise 11:   (1)
+            Add class Pickle to Sandwich.java.
+
+        Exercise 12:   (3)
+            Modify Exercise 9 so that it demonstrates the order of initialization of the base classes
+            and derived classes. Now add member objects to both the base and derived classes and show the order
+            in which their initialization occurs during construction.
+
+        Exercise 13:   (3)
+            Add a finalize( ) method to ReferenceCounting.java to verify the termination condition
+            (see the Initialization & Cleanup chapter).
+
+        Exercise 14:   (4)
+            Modify Exercise 12 so that one of the member objects is a shared object with reference counting,
+            and demonstrate that it works properly.
+
+        Exercise 15:   (2)
+            Add a RectangularGlyph to PolyConstructors.java and demonstrate the problem described in this section.
+
+        Exercise 16:   (3)
+            Following the example in Transmogrify.java, create a Starship class containing an AlertStatus reference
+            that can indicate three different states. Include methods to change the states.
+
+        Exercise 17:   (2)
+            Using the Cycle hierarchy from Exercise 1, add a balance( ) method to Unicycle and Bicycle,
+            but not to Tricycle. Create instances of all three types and upcast them to an array of Cycle.
+            Try to call balance( ) on each element of the array and observe the results. Downcast and call balance( )
+            and observe what happens.
+
+
+            ###############################
+            #### Chapter 9: Interfaces ####
+            ###############################
