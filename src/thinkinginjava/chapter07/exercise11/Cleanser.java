@@ -17,17 +17,12 @@ class Cleanser {
         x.dilute();
         x.apply();
         x.scrub();
-        x.detergentScrub();
-        x.detergentFoam();
+        x.foam();
         System.out.println(x);  // Out: Cleanser dilute() apply() scrub() Detergent.scrub() Detergent.foam()
     }
 
-    void detergentFoam() {
+    void foam() {
         append(detergent.foam());
-    }
-
-    void detergentScrub() {
-        append(detergent.scrub());
     }
 
     void append(String a) {
@@ -44,6 +39,7 @@ class Cleanser {
 
     void scrub() {
         append(" scrub()");
+        append(detergent.scrub());
     }
 
     public String toString() {
