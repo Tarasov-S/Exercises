@@ -494,3 +494,212 @@ Thinking in Java: Exercises List
             ###############################
             #### Chapter 9: Interfaces ####
             ###############################
+
+        Exercise 1:   (1)
+            Modify Exercise 9 in the previous chapter so that Rodent is an abstract class.
+            Make the methods of Rodent abstract whenever possible.
+
+        Exercise 2:   (1)
+            Create a class as abstract without including any abstract methods
+            and verify that you cannot create any instances of that class.
+
+        Exercise 3:   (2)
+            Create a base class with an abstract print( ) method that is overridden in a derived class.
+            The overridden version of the method prints the value of an int variable defined in the derived class.
+            At the point of definition of this variable, give it a nonzero value. In the base-class constructor,
+            call this method. In main( ), create an object of the derived type, and then call its print( ) method.
+            Explain the results.
+
+        Exercise 4:   (3)
+            Create an abstract class with no methods. Derive a class and add a method.
+            Create a static method that takes a reference to the base class, downcasts it to the derived class,
+            and calls the method. In main( ), demonstrate that it works.
+            Now put the abstract declaration for the method in the base class,
+            thus eliminating the need for the downcast.
+
+        Exercise 5:   (2)
+            Create an interface containing three methods, in its own package.
+            Implement the interface in a different package.
+
+        Exercise 6:   (2)
+            Prove that all the methods in an interface are automatically public.
+
+        Exercise 7:   (1)
+            Change Exercise 9 in the Polymorphism chapter so that Rodent is an interface.
+
+        Exercise 8:   (2)
+            In polymorphism.Sandwich.java, create an interface called FastFoo d (with appropriate methods)
+            and change Sandwic h so that it also implements FastFood.
+
+        Exercise 9:   (3)
+            Refactor Musics.java by moving the common methods in Wind,
+            Percussion and Stringed into an abstract class.
+
+        Exercise 10:   (3)
+            Modify Musics.java by adding a Playable interface.
+            Move the play( ) declaration from Instrument to Playable.
+            Add Playable to the derived classes by including it in the implement s list.
+            Change tune( ) so that it takes a Playable instead of an Instrument.
+
+        Exercise 11:   (4)
+            Create a class with a method that takes a String argument
+            and produces a result that swaps each pair of characters in that argument.
+            Adapt the class so that it works with interfaceprocessor.Apply.process( ).
+
+        Exercise 12:   (2)
+            In Adventure.java, add an interface called CanClimb,
+            following the form of the other interfaces.
+
+        Exercise 13:   (2)
+            Create an interface, and inherit two new interfaces from that interface.
+            Multiply inherit a third interface from the second two.
+
+        Exercise 14:   (2)
+            Create three interfaces, each with two methods. Inherit a new interface that combines the three,
+            adding a new method. Create a class by implementing the new interface
+            and also inheriting from a concrete class. Now write four methods,
+            each of which takes one of the four interfaces as an argument. In main( ),
+            create an object of your class and pass it to each of the methods.
+
+        Exercise 15:   (2)
+            Modify the previous exercise by creating an abstract class and
+            inheriting that into the derived class.
+
+        Exercise 16:   (3)
+            Create a class that produces a sequence of chars.
+            Adapt this class so that it can be an input to a Scanner object.
+
+        Exercise 17:   (2)
+            Prove that the fields in an interface are implicitly static and final.
+
+        Exercise 18:   (2)
+            Create a Cycle interface, with implementations Unicycle, Bicycle and Tricycle.
+            Create factories for each type of Cycle, and code that uses these factories.
+
+        Exercise 19:   (3)
+            Create a framework using Factory Methods that performs both coin tossing and dice tossing.
+
+
+            ###################################
+            #### Chapter 10: Inner Classes ####
+            ###################################
+
+        Exercise 1:   (1)
+            Write a class named Outer that contains an inner class named Inner.
+            Add a method to Outer that returns an object of type Inner. In main( ),
+            create and initialize a reference to an Inner.
+
+        Exercise 2:   (1)
+            Create a class that holds a String, and has a toString( ) method that displays this String.
+            Add several instances of your new class to a Sequence object, then display them.
+
+        Exercise 3:   (1)
+            Modify Exercise 1 so that Outer has a private String field (initialized by the constructor),
+            and Inner has a toString( ) that displays this field. Create an object of type Inner and display it.
+
+        Exercise 4:   (2)
+            Add a method to the class Sequence.
+            SequenceSelector that produces the reference to the outer class Sequence.
+
+        Exercise 5:   (1)
+            Create a class with an inner class.
+            In a separate class, make an instance of the inner class.
+
+        Exercise 6:   (2)
+            Create an interface with at least one method, in its own package.
+            Create a class in a separate package. Add a protected inner class that implements the interface.
+            In a third package, inherit from your class and, inside a method,
+            return an object of the protected inner class, upcasting to the interface during the return.
+
+        Exercise 7:   (2)
+            Create a class with a private field and a private method.
+            Create an inner class with a method that modifies the outer-class field
+            and calls the outer-class method. In a second outer-class method,
+            create an object of the inner class and call its method,
+            then show the effect on the outer-class object.
+
+        Exercise 8:   (2)
+            Determine whether an outer class has access to the private elements of its inner class.
+
+        Exercise 9:   (1)
+            Create an interface with at least one method,
+            and implement that interface by defining an inner class within a method,
+            which returns a reference to your interface.
+
+        Exercise 10:   (1)
+            Repeat the previous exercise but define the inner class within a scope within a method.
+
+        Exercise 11:   (2)
+            Create a private inner class that implements a public interface.
+            Write a method that returns a reference to an instance of the private inner class,
+            upcast to the interface. Show that the inner class is completely hidden by trying to downcast to it.
+
+        Exercise 12:   (1)
+            Repeat Exercise 7 using an anonymous inner class.
+
+        Exercise 13:   (1)
+            Repeat Exercise 9 using an anonymous inner class.
+
+        Exercise 14:   (1)
+            Modify interfaces/HorrorShow.java to implement DangerousMonster
+            and Vampire using anonymous classes.
+
+        Exercise 15:   (2)
+            Create a class with a non-default constructor (one with arguments)
+            and no default constructor (no "no-arg" constructor).
+            Create a second class that has a method that returns a reference to an object of the first class.
+            Create the object that you return by making an anonymous inner class that inherits from the first class.
+
+        Exercise 16:   (1)
+            Modify the solution to Exercise 18 from the Interfaces chapter to use anonymous inner classes.
+
+        Exercise 17:   (1)
+            Modify the solution to Exercise 19 from the Interfaces chapter to use anonymous inner classes.
+
+        Exercise 18:   (1)
+            Create a class containing a nested class. In main( ), create an instance of the nested class.
+
+        Exercise 19:   (2)
+            Create a class containing an inner class that itself contains an inner class.
+            Repeat this using nested classes. Note the names of the .class files produced by the compiler.
+
+        Exercise 20:   (1)
+            Create an interface containing a nested class.
+            Implement this interface and create an instance of the nested class.
+
+        Exercise 21:   (2)
+            Create an interface that contains a nested class that has a static method
+            that calls the methods of your interface and displays the results.
+            Implement your interface and pass an instance of your implementation to the method.
+
+        Exercise 22:   (2)
+            Implement reverseSelector( ) in Sequence.java.
+
+        Exercise 23:   (4)
+            Create an interface U with three methods. Create a class A with a method that produces
+            a reference to a U by building an anonymous inner class.
+            Create a second class B that contains an array of U. B should have one method that accepts and stores
+            a reference to a U in the array, a second method that sets a reference
+            in the array (specified by the method argument) to null, and a third method that moves through the array
+            and calls the methods in U. In main( ), create a group of A objects and a single B.
+            Fill the B with U references produced by the A objects. Use the B to call back into all the A objects.
+            Remove some of the U references from the B.
+
+        Exercise 24:   (2)
+            In GreenhouseControls.java, add Event inner classes that turn fans on and off.
+            Configure GreenhouseController.java to use these new Event objects.
+
+        Exercise 25:   (3)
+            Inherit from GreenhouseControls in GreenhouseControls.java to add Event inner classes
+            that turn water mist generators on and off. Write a new version of GreenhouseController.java
+            to use these new Event objects.
+
+        Exercise 26:   (2)
+            Create a class with an inner class that has a non-default constructor (one that takes arguments).
+            Create a second class with an inner class that inherits from the first inner class.
+
+
+            ##########################################
+            #### Chapter 11: Holding Your Objects ####
+            ##########################################
+
