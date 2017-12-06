@@ -318,9 +318,9 @@ Thinking in Java: Exercises List
             Create the following file in the access/local directory (presumably in your CLASSPATH):
 
 
-            ####################################
-            #### Chapter 7: Reusing Classes ####
-            ####################################
+    ####################################
+    #### Chapter 7: Reusing Classes ####
+    ####################################
 
         Exercise 1:   (2)
             Create a simple class. Inside a second class, define a reference to an object of the first class.
@@ -415,9 +415,9 @@ Thinking in Java: Exercises List
             following the same format as the existing classes. Trace and explain the output.
 
 
-            #################################
-            #### Chapter 8: Polymorphism ####
-            #################################
+    #################################
+    #### Chapter 8: Polymorphism ####
+    #################################
 
         Exercise 1:   (2)
             Create a Cycle class, with subclasses Unicycle, Bicycle and Tricycle.
@@ -491,9 +491,9 @@ Thinking in Java: Exercises List
             and observe what happens.
 
 
-            ###############################
-            #### Chapter 9: Interfaces ####
-            ###############################
+    ###############################
+    #### Chapter 9: Interfaces ####
+    ###############################
 
         Exercise 1:   (1)
             Modify Exercise 9 in the previous chapter so that Rodent is an abstract class.
@@ -580,9 +580,9 @@ Thinking in Java: Exercises List
             Create a framework using Factory Methods that performs both coin tossing and dice tossing.
 
 
-            ###################################
-            #### Chapter 10: Inner Classes ####
-            ###################################
+    ###################################
+    #### Chapter 10: Inner Classes ####
+    ###################################
 
         Exercise 1:   (1)
             Write a class named Outer that contains an inner class named Inner.
@@ -699,7 +699,7 @@ Thinking in Java: Exercises List
             Create a second class with an inner class that inherits from the first inner class.
 
 
-            ##########################################
-            #### Chapter 11: Holding Your Objects ####
-            ##########################################
+    ##########################################
+    #### Chapter 11: Holding Your Objects ####
+    ##########################################
 
